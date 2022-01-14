@@ -1,0 +1,35 @@
+// html {
+//     font-size: 26.66667vw;
+// }
+
+body {
+    padding: 0;
+    margin: 0;
+
+    // background: #ccc;
+    #app {
+        background: #f00;
+        width: 500px;
+        height: 300px;
+        position: relative;
+        transform: scale(0.5);
+        /* top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0; */
+    }
+    .avatar {
+        width: 100px;
+        height: 100px;
+    }
+    .boxa {
+        width: 100px;
+        height: 100px;
+        background: #f00;
+    }
+    .boxb {
+        width: 100px;
+        height: 100px;
+        background: #f0f;
+    }
+}

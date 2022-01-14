@@ -1,0 +1,51 @@
+{
+    "name": "untils",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack serve ",
+        "dev": "webpack serve  --config ./config/webpack.common.js --env development",
+        "build": "webpack --config ./config/webpack.common.js --env production",
+        "dev1": "webpack serve",
+        "tsBulid": "yarn tsck && webpack",
+        "tsck": "webpack --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.16.8",
+        "@babel/core": "^7.16.7",
+        "@babel/plugin-transform-arrow-functions": "^7.16.7",
+        "@babel/plugin-transform-block-scoping": "^7.16.7",
+        "@babel/preset-env": "^7.16.8",
+        "@babel/preset-react": "^7.16.7",
+        "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
+        "autoprefixer": "^10.4.2",
+        "babel-loader": "^8.2.3",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^10.2.0",
+        "css-loader": "^6.5.1",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.5.0",
+        "node-sass": "^7.0.1",
+        "postcss": "^8.4.5",
+        "postcss-loader": "^6.2.1",
+        "react-refresh": "^0.11.0",
+        "sass": "^1.47.0",
+        "sass-loader": "^12.4.0",
+        "style-loader": "^3.3.1",
+        "url-loader": "^4.1.1",
+        "webpack": "^5.65.0",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.7.3",
+        "webpack-merge": "^5.8.0"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "^6.2.1"
+    }
+}
